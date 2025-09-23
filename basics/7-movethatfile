@@ -4,4 +4,3 @@ if [ -f /tmp/betty ]; then
 else
     echo "Error: /tmp/betty no existe."
 fi
-# update for testing commit
