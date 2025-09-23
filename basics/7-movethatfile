@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f /tmp/betty ]; then
+    mv /tmp/betty /tmp/my_first_directory/
+else
+    echo "Error: /tmp/betty no existe."
+fi
